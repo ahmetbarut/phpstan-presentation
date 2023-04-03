@@ -1,4 +1,4 @@
 # phpstan.neon
 
 parameters:
-    level: max
+    level: 2

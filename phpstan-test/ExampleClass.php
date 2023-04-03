@@ -2,17 +2,14 @@
 
 class ExampleClass
 {
-    private int $number;
+    private $number;
 
-    /**
-     * @param int $number
-     */
-    public function __construct(int $number)
+    public function __construct($number)
     {
         $this->number = $number;
     }
 
-    public function getNumber(): int
+    public function getNumber()
     {
         return $this->number;
     }

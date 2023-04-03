@@ -11,7 +11,7 @@ class TestClass
         $this->message = 'Hello World!';
     }
 
-    public function testMethod(string $param1, string $param2): string
+    public function testMethod(string $param1, string $param2)
     {
         if ($param1) {
             return $param2;
