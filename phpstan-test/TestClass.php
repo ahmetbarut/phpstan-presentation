@@ -2,15 +2,16 @@
 
 namespace App;
 
-class TestClass{
-    public $message = 'Hello World!';
+class TestClass
+{
+    public string $message = 'Hello World!';
 
     public function __construct()
     {
         $this->message = 'Hello World!';
     }
-    
-    public function testMethod($param1, $param2)
+
+    public function testMethod(string $param1, string $param2): string
     {
         if ($param1) {
             return $param2;
@@ -19,7 +20,7 @@ class TestClass{
         }
     }
 
-    public function test_method($param1, $param2)
+    public function test_method(string $param1, string $param2): string
     {
         if ($param1) {
             return $param2;
